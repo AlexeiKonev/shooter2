@@ -1,0 +1,1679 @@
+[LicensingClient] ERROR Error 10 while verifying Licensing Client signature (path: 9100, process Id: C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe)
+[Licensing::Module] LicensingClient has failed validation
+[LicensingClient] ERROR Failed to connect to local IPC
+[Licensing::Module] Failed to connect to channel: LicenseClient-AMD-2019.4.38
+[Licensing::Module] Successfully launched the LicensingClient
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-AMD-2019.4.38
+[Licensing::Module] Successfully launched and connected to LicensingClient
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [2022427 23:13:58] Next license update check is after 2022-04-27T08:58:42
+
+
+LICENSE SYSTEM [2022427 23:13:58] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2019.4/staging' branch; Version is '2019.4.38f1 (fdbb7325fa47) revision 16628595'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.19042) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 7734 MB
+[Licensing::Module] Serial number assigned to: "F4-2MFH-HVQD-QDWM-9SWC-XXXX"\nBatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 4673 was selected
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.38f1\Editor\Unity.exe
+-projectpath
+D:\UnityProjects\testshooter
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-AMD
+-hubSessionId
+096fb090-c60a-11ec-960e-f5f3e6acdb3f
+-accessToken
+oe-U24n3rXgdTs2dk0n40US9X3XRxmNEWX3eTGSmtNU009f
+Successfully changed project path to: D:\UnityProjects\testshooter
+D:/UnityProjects/testshooter
+Using Asset Import Pipeline V2.
+Adding genesis user token [Package Manager] Done resolving packages in 3.71s seconds
+[Package Manager] Done checking package constraints in 0.03s seconds
+[Package Manager] 
+Registered 45 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@1.14.15 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.collab-proxy@1.14.15)
+    com.unity.ide.rider@1.2.1 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.ide.rider@1.2.1)
+    com.unity.ide.visualstudio@2.0.14 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.ide.visualstudio@2.0.14)
+    com.unity.ide.vscode@1.2.5 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.recorder@2.5.7 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.recorder@2.5.7)
+    com.unity.render-pipelines.universal@7.7.1 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.render-pipelines.universal@7.7.1)
+    com.unity.test-framework@1.1.31 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.test-framework@1.1.31)
+    com.unity.textmeshpro@2.1.6 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.textmeshpro@2.1.6)
+    com.unity.timeline@1.2.18 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.timeline@1.2.18)
+    com.unity.ext.nunit@1.0.6 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.render-pipelines.core@7.7.1 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.render-pipelines.core@7.7.1)
+    com.unity.shadergraph@7.7.1 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.shadergraph@7.7.1)
+  Built-in packages:
+    com.unity.ugui@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: D:\UnityProjects\testshooter\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 1.12s seconds
+Refreshing native plugins compatible for Editor in 218.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.38f1 (fdbb7325fa47)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/testshooter/Assets
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) 535 (ID=0x6900)
+    Vendor:   
+    VRAM:     2038 MB
+    Driver:   27.20.20903.8001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+ImportWorker Server TCP listen port: 4677
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007530 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 210.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4949ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1243ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (211ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Registering precompiled user dll's ...
+Registered in 0.156358 seconds.
+Platform modules already initialized, skipping
+Validating Project structure ... 0.003425 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.052077 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\testshooter\Library\PackageCache\com.unity.collab-proxy@1.14.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 114.27 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3095ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (2677ms)
+			LoadAssemblies (232ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (807ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (170ms)
+			SetupLoadedEditorAssemblies (1161ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (245ms)
+				ProcessInitializeOnLoadAttributes (728ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 6088.961ms
+	InvokeBeforeRefreshCallbacks: 0.682ms
+	ApplyChangesToAssetFolders: 0.192ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 95.863ms
+	OnSourceAssetsModified: 0.001ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 1.155ms
+	GetAllGuidsForCategorization: 0.348ms
+	CategorizeAssets: 152.939ms
+	ImportAndPostprocessOutOfDateAssets: 5807.062ms (5804.934ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.001ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.629ms
+		InitializingProgressBar: 0.006ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.864ms
+		OnDemandSchedulerStart: 0.000ms
+		RestoreLoadedAssetsState: 0.629ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 1.497ms
+	UnloadImportedAssets: 0.014ms
+	Hotreload: 1.061ms
+	FixTempGuids: 0.037ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 1.014ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.014ms
+	GetLoadedSourceAssetsSnapshot: 0.458ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 24.465ms
+	GenerateScriptTypeHashes: 0.847ms
+	Untracked: 2.159ms
+Refresh completed in 0.231519 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport)
+RefreshProfiler: Total: 231.486ms
+	InvokeBeforeRefreshCallbacks: 0.553ms
+	ApplyChangesToAssetFolders: 0.134ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 86.482ms
+	OnSourceAssetsModified: 0.000ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 12.384ms
+	GetAllGuidsForCategorization: 0.329ms
+	CategorizeAssets: 113.340ms
+	ImportAndPostprocessOutOfDateAssets: 10.828ms (3.850ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.004ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.890ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.481ms
+		OnDemandSchedulerStart: 1.369ms
+		RestoreLoadedAssetsState: 4.233ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 1.723ms
+	UnloadImportedAssets: 0.215ms
+	Hotreload: 0.046ms
+	FixTempGuids: 0.034ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.456ms
+	UnloadStreamsBegin: 0.021ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.890ms
+	GetLoadedSourceAssetsSnapshot: 5.761ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 0.025ms
+	GenerateScriptTypeHashes: 2.446ms
+	Untracked: -2.736ms
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport)
+RefreshProfiler: Total: 25.596ms
+	InvokeBeforeRefreshCallbacks: 0.538ms
+	ApplyChangesToAssetFolders: 0.148ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 6.789ms
+	OnSourceAssetsModified: 0.000ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 10.682ms
+	GetAllGuidsForCategorization: 0.000ms
+	CategorizeAssets: 0.000ms
+	ImportAndPostprocessOutOfDateAssets: 0.000ms (0.000ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.000ms
+		RestoreLoadedAssetsState: 0.000ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 0.000ms
+	UnloadImportedAssets: 0.000ms
+	Hotreload: 0.056ms
+	FixTempGuids: 0.033ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.500ms
+	UnloadStreamsBegin: 0.975ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.697ms
+	GetLoadedSourceAssetsSnapshot: 1.803ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 0.022ms
+	GenerateScriptTypeHashes: 0.000ms
+	Untracked: 2.354ms
+Refresh completed in 0.253128 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 253.096ms
+	InvokeBeforeRefreshCallbacks: 0.001ms
+	ApplyChangesToAssetFolders: 0.131ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 105.451ms
+	OnSourceAssetsModified: 0.001ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 9.560ms
+	GetAllGuidsForCategorization: 0.504ms
+	CategorizeAssets: 120.566ms
+	ImportAndPostprocessOutOfDateAssets: 7.383ms (2.010ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.002ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.871ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.378ms
+		OnDemandSchedulerStart: 0.416ms
+		RestoreLoadedAssetsState: 3.706ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 1.970ms
+	UnloadImportedAssets: 0.326ms
+	Hotreload: 0.103ms
+	FixTempGuids: 0.007ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.472ms
+	UnloadStreamsBegin: 0.867ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 2.059ms
+	GetLoadedSourceAssetsSnapshot: 6.046ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 0.024ms
+	GenerateScriptTypeHashes: 0.325ms
+	Untracked: -2.373ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Initializing Unity extensions:
+ 'C:/Program Files/Unity/Hub/Editor/2019.4.38f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: ' (39) to any virtual key
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: ' (39) to any virtual key
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/shooter.unity'
+	Deserialize:            230.499 ms
+	Integration:            80.263 ms
+	Integration of assets:  32.802 ms
+	Thread Wait Time:       25.829 ms
+	Total Operation Time:   369.394 ms
+System memory in use before: 71.5 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 162 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 12.035800 ms (FindLiveObjects: 0.897600 ms CreateObjectMapping: 0.235800 ms MarkObjects: 8.154400 ms  DeleteObjects: 2.746500 ms)
+
+[MODES] Loading mode Default (0) for mode-current-id-testshooter
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: ' (39) to any virtual key
+IsTimeToCheckForNewEditor: Update time 1651093472 current 1651090463
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 30.074 seconds
+	Project init time: 				1.075 seconds
+		Template init time: 		0.000 seconds
+		Services packages init time: 	0.000 seconds
+		Package Manager init time: 		0.000 seconds
+		Asset Database init time: 		0.000 seconds
+		Global illumination init time: 	0.000 seconds
+		Assemblies load time: 			0.000 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	0.000 seconds
+	Scene opening time: 			1.984 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+Refreshing native plugins compatible for Editor in 12.91 ms, found 5 plugins.
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: ' (39) to any virtual key
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: ' (39) to any virtual key
+Created GICache directory at C:/Users/AMD/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.086s, timestamps: [32.386 - 32.473]
+gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+Setting up 2 worker threads for Enlighten.
+[00:00:05] Enlighten: Builtin Sky manager started.
+  Thread -> id: 14ec -> priority: 1 
+  Thread -> id: 32c8 -> priority: 1 
+TrimDiskCacheJob: Current cache size 44mb
+[00:00:05] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.12s wallclock)
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\testshooter\Library\PackageCache\com.unity.collab-proxy@1.14.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[MODES] Loading mode Default (0) for mode-current-id-testshooter
+Mono: successfully reloaded assembly
+- Completed reload, in  4.454 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4548ms)
+		BeginReloadAssembly (521ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (65ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (240ms)
+		EndReloadAssembly (3825ms)
+			LoadAssemblies (642ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (715ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (160ms)
+			SetupLoadedEditorAssemblies (879ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (582ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (743ms)
+Platform modules already initialized, skipping
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            17.652 ms
+	Integration:            84.991 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       10.354 ms
+	Total Operation Time:   113.003 ms
+старт игры
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:Start () (at Assets/Scripts/PlayerControll.cs:27)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 27)
+
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: ' (39) to any virtual key
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: ' (39) to any virtual key
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+попадание в агента
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnemyAgent:DestroyEnemy () (at Assets/Scripts/EnemyAgent.cs:57)
+ 
+(Filename: Assets/Scripts/EnemyAgent.cs Line: 57)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+попадание в агента
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnemyAgent:DestroyEnemy () (at Assets/Scripts/EnemyAgent.cs:57)
+ 
+(Filename: Assets/Scripts/EnemyAgent.cs Line: 57)
+
+попадание в агента
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnemyAgent:DestroyEnemy () (at Assets/Scripts/EnemyAgent.cs:57)
+ 
+(Filename: Assets/Scripts/EnemyAgent.cs Line: 57)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+фейл
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DeathZone:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/DeathZone.cs:18)
+ 
+(Filename: Assets/Scripts/DeathZone.cs Line: 18)
+
+Unloading 156 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.499600 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            12.797 ms
+	Integration:            28.941 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       19.894 ms
+	Total Operation Time:   61.635 ms
+System memory in use before: 108.1 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 207 unused Assets to reduce memory usage. Loaded Objects now: 4303.
+Total: 60.954300 ms (FindLiveObjects: 1.548500 ms CreateObjectMapping: 0.278700 ms MarkObjects: 42.149300 ms  DeleteObjects: 16.976500 ms)
+
+старт игры
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:Start () (at Assets/Scripts/PlayerControll.cs:27)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 27)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+попадание в агента
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnemyAgent:DestroyEnemy () (at Assets/Scripts/EnemyAgent.cs:57)
+ 
+(Filename: Assets/Scripts/EnemyAgent.cs Line: 57)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+попадание в агента
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnemyAgent:DestroyEnemy () (at Assets/Scripts/EnemyAgent.cs:57)
+ 
+(Filename: Assets/Scripts/EnemyAgent.cs Line: 57)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+попадание в агента
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnemyAgent:DestroyEnemy () (at Assets/Scripts/EnemyAgent.cs:57)
+ 
+(Filename: Assets/Scripts/EnemyAgent.cs Line: 57)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+выстрел
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:BulletSpawn () (at Assets/Scripts/PlayerControll.cs:46)
+PlayerControll:FixedUpdate () (at Assets/Scripts/PlayerControll.cs:38)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 46)
+
+попадание в агента
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnemyAgent:DestroyEnemy () (at Assets/Scripts/EnemyAgent.cs:57)
+ 
+(Filename: Assets/Scripts/EnemyAgent.cs Line: 57)
+
+победа
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Finish:Win () (at Assets/Scripts/Finish.cs:34)
+ 
+(Filename: Assets/Scripts/Finish.cs Line: 34)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.198900 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            12.805 ms
+	Integration:            17.725 ms
+	Integration of assets:  0.871 ms
+	Thread Wait Time:       18.288 ms
+	Total Operation Time:   49.689 ms
+System memory in use before: 87.6 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4303.
+Total: 21.510500 ms (FindLiveObjects: 1.301500 ms CreateObjectMapping: 0.325500 ms MarkObjects: 19.796700 ms  DeleteObjects: 0.085400 ms)
+
+старт игры
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerControll:Start () (at Assets/Scripts/PlayerControll.cs:27)
+ 
+(Filename: Assets/Scripts/PlayerControll.cs Line: 27)
+
