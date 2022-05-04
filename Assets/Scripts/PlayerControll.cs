@@ -27,20 +27,19 @@ public class PlayerControll : MonoBehaviour
          Debug.Log("старт игры");
     }
 
-    // Update is called once per frame
+     
     private void FixedUpdate()
     {
-        //отслеживаем нажатие   WASD и клик мышки для выстрела
+        //we track the WASD click and the mouse click for the shot
         Controller();
-        //по нажатию на левую клавишку мыши происходит выстрел
+        // by clicking on the left mouse button shot
         if (Input.GetMouseButtonDown(0))
         {
             BulletSpawn();
         }
     }
      
-    
-    //функция появления пуль
+     
     void BulletSpawn()
     {
         Debug.Log("выстрел");

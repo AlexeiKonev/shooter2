@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class EnemyAgent : MonoBehaviour
 {
-    public GameObject effect;
+    //effect activate when enemy shoted
+    [SerializeField] private GameObject effect;
+    //patrol points
     [SerializeField] private Transform _point1;
     [SerializeField] private Transform _point2;
-    [SerializeField] private float _waitTime = 2f;
-    private float _speed = 4f;
+    //patrol delay  time 
+    [SerializeField] private float _waitTime = 2f; 
+    
+    [SerializeField] private float _moveSpeed = 4f;
     private bool CanGo = true;
 
 
@@ -17,11 +21,11 @@ public class EnemyAgent : MonoBehaviour
          
     }
 
-    // Update is called once per frame
+     
     void Update()
     {
         if (CanGo)
-            transform.position = Vector3.MoveTowards(transform.position, _point1.position, _speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, _point1.position, _moveSpeed * Time.deltaTime);
         if (transform.position == _point1.position)
         {
             Transform t = _point1;

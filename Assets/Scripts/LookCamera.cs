@@ -10,17 +10,17 @@ public class LookCamera : MonoBehaviour
     //картинка прицела
     
     public static Image _cursor;
-    //red (255,0,0)     yellow (255,255,0)
+        
     void Start()
     {
         _cursor = GameObject.Find("Scope").GetComponent<Image>();
         ChangeColorYelow();
-        //фиксируем курсор по центру и делаем невидимым
+        //fix cursor to centr of screen
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Update is called once per frame
+     
     void Update()
     {
         transform.Rotate(0, Input.GetAxis("Mouse X") * sensityvyHorizont, 0);
@@ -28,14 +28,14 @@ public class LookCamera : MonoBehaviour
 
     public static void ChangeColorYelow() 
     {
-        
-        //желтый
+
+        //yellow (255,255,0)
         _cursor.color = new Color(255, 255, 0);
     } 
     public static void ChangeColorRed() 
     {
 
-        //красный
+        //red (255,0,0) 
         _cursor.color = new Color(255, 0, 0);
     }
 }
